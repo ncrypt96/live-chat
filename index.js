@@ -1,7 +1,7 @@
 let express = require('express');
 let socket = require('socket.io');
 
-let PORT = 3000;
+let PORT = process.env.PORT || 3000;
 
 let app = express();
 
