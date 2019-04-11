@@ -1,4 +1,4 @@
-let socket = io.connect('http://localhost:3000/')
+let socket = io.connect('https://new-realchat.herokuapp.com/')
 
 let outputNode = document.getElementById('outputNode');
 let inputText = document.getElementById('inputText');
